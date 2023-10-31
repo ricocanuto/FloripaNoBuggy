@@ -1,0 +1,298 @@
+ /* * { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'belanosima'
+}
+
+html {
+    background-image: url('./Assets/Ponte_Hercílio_Luz_Fls.jpg');
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    background-color: lightgrey;
+    opacity: 0.8;
+    font-size: 20px;
+    color: #808080;
+    border-radius: 10px;
+    width: auto;
+    margin-bottom: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+    display: flex;
+    margin-right: 72px;
+}
+h1 {
+    font-size: 40px;
+    color: gold;
+    font-family: 'Lugrasimo';
+}
+
+.main-logo {
+    display: block;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20%;
+}
+
+.redes-sociais {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding: 0%;
+    border-radius: 10px;
+
+}
+
+.icon-contact {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 15%;
+    border-radius: 50%;
+
+}
+
+.container {
+        background-image: linear-gradient(to bottom, #0000ff, #fff99999);
+        box-sizing: border-box;
+        text-transform: uppercase;
+        top: 15%;
+        left: 0;
+        color: #808080;
+        font-size: 22px;
+        margin-top: 0%;
+        transform: translateY(-125px);
+        transition: .3s;
+        padding: 20px 1rem;
+        display: flex; 
+        align-items: center;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        position: fixed !important;
+        width: 100% !important;
+        padding-bottom: .5rem !important;
+        background-size: 100% 100%; /* Preenche todo o elemento */
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'belanosima';
+ }
+
+ /* Adicione uma sobreposição escura ao fundo */
+ /* html {
+    background-image: url('./Assets/Ponte_Hercílio_Luz_Fls.jpg');
+    background-size: cover;
+    /*background-color: rgba(0, 0, 0, 0.5);
+} */
+
+ body {
+     background-image: url('./Assets/Ponte_Hercílio_Luz_Fls.jpg');
+     background-size: cover;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+ }
+
+ /* Estilize o cabeçalho */
+ nav {
+     color: white;
+     max-height: 30%;
+ }
+
+ div {
+     box-sizing: border-box;
+     border: 1px solid #d3d3d3;
+     display: flex;
+     width: 300px;
+     padding: 5%;
+     border-radius: 2em;
+ }
+
+ section {
+     display: flex;
+     gap: 1rem;
+     align-items: center;
+
+ }
+
+ h1 {
+     font-size: 2rem;
+     color: gold;
+     font-family: 'Lugrasimo';
+
+ }
+
+ h2 {
+     font-size: 4em;
+     font-family: 'Poppins';
+     color: gold;
+ }
+
+ ul {
+     list-style: none;
+     display: grid;
+     grid-template-columns: 400px 400px;
+     gap: 5rem;
+     margin-top: 10%;
+     margin-bottom: 10%;
+ }
+
+ ul li {
+     background-color: lightgrey;
+     opacity: 0.8;
+     font-size: 1rem;
+     color: #808080;
+     border-radius: 10px;
+     padding: 0.5rem 1rem;
+     text-transform: uppercase;
+     font-weight: 700;
+ }
+
+ button#compartilhar {
+     margin-left: 5%;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     border-radius: 10px;
+     padding: 0.5rem 1rem;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+
+ button#compartilhar:hover {
+     background-color: #0056b3;
+ }
+
+ /* Estilize as seções principais */
+ .main-logo {
+     display: block;
+     border-radius: 50%;
+     padding: 2rem;
+     max-width: 100%;
+ }
+
+ /* Estilize os cartões de opções de passeio */
+ .tour-option-sul,
+ .tour-option-norte,
+ .tour-option-leste,
+ .tour-option-centro {
+     height: 21rem;
+     background-size: cover;
+     background-color: rgba(28, 106, 130, 0.6);
+     /* Aquamarine com 60% de opacidade */
+     opacity: 0.9;
+     font-size: 2rem;
+     color: gold;
+     font-weight: 700;
+     margin: 1rem;
+     border-radius: 10px;
+     padding: 1rem;
+     text-align: center;
+     position: relative;
+
+ }
+
+ .tour-option-sul img,
+ .tour-option-norte img,
+ .tour-option-leste img,
+ .tour-option-centro img {
+     width: 100%;
+     height: auto;
+     border-radius: 5px;
+ }
+
+ .container {
+     background-color: rgba(0, 0, 255, 0.5);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     height: 40%;
+     border: none;
+     border-radius: 2em;
+ }
+
+ /* Estilize os ícones de contato */
+ .icon-contact {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     width: 7rem;
+     border-radius: 50%;
+ }
+
+ .social-icon-instagram,
+ .social-icon-facebook {
+     width: 3rem;
+     margin: 0.5rem;
+
+ }
+
+ nav h1 {
+     font-size: 2.5rem;
+ }
+
+ .menu {
+     list-style: none;
+     display: flex;
+     gap: 1rem;
+     margin-top: 1rem;
+     border: none;
+ }
+
+ .buttons {
+     background-color: rgba(232, 232, 237, 0.5);
+     opacity: 0.8;
+     font-size: 1rem;
+     border-radius: 10px;
+     padding: 0.5rem 1rem;
+     text-transform: uppercase;
+     font-weight: 700;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+
+ .buttons:hover {
+     background-color: #007bff;
+
+ }
+
+ .weather-widget {
+     display: flex;
+     justify-content: center;
+     padding: 10px;
+     background-color: rgba(28, 106, 130, 0.6);
+ }
+
+ .weather-icon img {
+     width: 100px;
+     height: 100px;
+ }
+
+ .weather-info {
+     text-align: center;
+ }
+
+ .temperature {
+     font-size: 24px;
+ }
+
+ .description {
+     font-size: 16px;
+ }
